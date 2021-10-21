@@ -1,0 +1,33 @@
+body {
+	text-align: center;
+	align-content: center;
+	background-image: linear-gradient(to right top, #370535, #640045, #94004b, #c20047, #eb1238);
+}
+.poke-container {
+	margin: 20px;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+	align-content: center;
+    justify-content: center;
+}
+div {
+	background-color: grey;
+	border-radius: 1rem;
+	height: 15rem;
+	width: 15rem;
+	/* align-content: center; */
+}
+.pokes-container {
+	margin: 10px;
+}
+.txt {
+	display: block;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pokes-container:hover {
+	transform: scale(1.04);
+}
